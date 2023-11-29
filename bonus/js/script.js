@@ -23,8 +23,13 @@ function play(btn){
         
             grid.appendChild(square);
             
+            square.addEventListener("click", function(){
+                this.classList.toggle("press");
+                console.log(this);
+            })
         }
     })
+
 
 }
 
