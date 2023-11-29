@@ -21,3 +21,10 @@ Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dat
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
 In allegato esempi di layout da avere come guida nel caso non abbiate idee sullo stile grafico.
 Buon lavoro, a domani!
+
+
+SVOLGIMENTO
+
+1 - FUNZIONE PER LA CREAZIONE DELLA CASELLA DELLA GRIGLIA
+2 - recupero l'elemento dal file html che contiene la griglia
+3 - eseguo un ciclo for per la creazione di tutte le celle
