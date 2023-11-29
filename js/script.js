@@ -8,15 +8,24 @@ function createCell(num){
     return element;
 }
 
-// recupero l'elemento dal file html che contiene la griglia
 
-let grid = document.getElementById("grid");
+// creo funzione per far si che la giglia compaia dopo aver cliccato il bobttone
+let button = document.getElementById("button");
 
-// eseguo un ciclo for per la creazione di tutte le celle
+function play(btn){
 
-for(i=1; i<=100; i++){
-    let square = createCell(i);
+    button.addEventListener("click", function(){
 
-    grid.appendChild(square);
-    
+        let grid = document.getElementById("grid");
+
+        for(i=1; i<=100; i++){
+            let square = createCell(i);
+        
+            grid.appendChild(square);
+            
+        }
+    })
+
 }
+
+play(button);
